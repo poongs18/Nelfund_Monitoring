@@ -2,7 +2,7 @@ name: Run JMeter Script and Send Results
 
 on:
   schedule:
-    - cron: '55 7 * * *'  # Runs at 8:55 AM WAT (7:55 AM UTC)
+    - cron: '57 7 * * *'  # Runs at 8:55 AM WAT (7:55 AM UTC)
     
 jobs:
   run-jmeter:
