@@ -65,7 +65,7 @@ jobs:
         echo "summary=$summary" >> $GITHUB_ENV
 
     - name: Send email with parsed results
-      uses: dawidd6/action-send-mail@v4
+      uses: dawidd6/action-send-mail@v3
       with:
         server_address: smtp.hostinger.com
         server_port: 465
