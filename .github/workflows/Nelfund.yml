@@ -1,8 +1,7 @@
 name: Run JMeter Script and Send Results
 
 on:
-  schedule:
-    - cron: '56 6 * * *'  # Runs at 8:55 AM WAT (7:55 AM UTC)
+  workflow_dispatch:  # Allows manual triggering of the workflow
     
 jobs:
   run-jmeter:
