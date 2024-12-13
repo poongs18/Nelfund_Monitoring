@@ -96,6 +96,6 @@ jobs:
             <p>Note: This is an auto-generated email. Do not reply</p>
           </body>
           </html>
-        to: deepak@thinktime.in,arun@thinktime.in
+        to: jenkins@thinktime.in,arun@thinktime.in
         from: ${{ secrets.EMAIL_USERNAME }}
         priority: normal
